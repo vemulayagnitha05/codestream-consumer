@@ -1,0 +1,11 @@
+Full corpus consumer error
+
+The consumer later crashed with:
+
+/app/src/index.js:20
+fs.readFile(files.data.filepath, { encoding: 'utf8' })
+TypeError: Cannot read properties of undefined (reading 'filepath')
+[nodemon] app crashed - waiting for file changes before restart...
+
+The exact root cause was not confirmed with a memory profiler.
+This error was recorded before the upload error-handling fix in the final version.

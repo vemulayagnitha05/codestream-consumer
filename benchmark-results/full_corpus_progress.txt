@@ -1,0 +1,12 @@
+Qualitas Corpus experiment
+
+The consumer was run with the Qualitas Corpus generator.
+
+Observed progress reached 15,200 processed files.
+
+The consumer did not finish the complete corpus. The consumer later
+crashed with an error in index.js while trying to access files.data.filepath.
+
+The exact cause of the crash was not confirmed with a memory profiler.
+FileStorage keeps processed files in memory, so increasing memory usage
+is a likely issue to investigate.

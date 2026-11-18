@@ -1,0 +1,9 @@
+Chunk comparison experiment
+
+A.java chunks: 75
+B.java chunks: 70
+
+75 x 70 = 5250 possible chunk comparisons.
+
+With the hashing implementation, one clean A.java/B.java run reached
+24 detailed chunk-match checks and still detected 6 clones.

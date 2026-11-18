@@ -1,0 +1,9 @@
+Timing results from the A.java and B.java test
+
+A.java: total 784 us, match 98 us
+B.java: total 2517 us, match 2436 us
+
+Average total: 1651 us
+Average match: 1267 us
+Minimum total: 784 us
+Maximum total: 2517 us

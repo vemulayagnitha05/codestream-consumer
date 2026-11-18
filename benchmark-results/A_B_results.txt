@@ -1,0 +1,8 @@
+A.java vs B.java
+
+Chunk size: 5
+Possible chunk comparisons: 5250
+Detailed chunk checks with hashing: 24
+Clones detected: 6
+
+The clone result was the same as the non-hashing test.

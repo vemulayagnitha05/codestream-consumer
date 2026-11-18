@@ -1,0 +1,3 @@
+method,chunk_comparisons,detailed_chunk_checks
+Brute force,5250,
+Hash filtering,5250,24
